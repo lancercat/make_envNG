@@ -1,1 +1,1 @@
-sudo pacman -S linux66 linux66-nvidia
+sudo pacman -S linux69 linux69-nvidia
