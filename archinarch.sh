@@ -1,5 +1,7 @@
 
-$DISK=/dev/sdg
+DISK=/dev/sdg
+HOST=TESTMEOW
+
 mount ${DISK}2 /mnt/
 
 mount ${DISK}1 /mnt/boot --mkdir
@@ -21,7 +23,7 @@ ln -sf /usr/share/zoneinfo/Europe/Stockholm /etc/localtime
 vim /etc/locale.gen
 locale-gen
 echo LANG=en_US.UTF-8 > /etc/locale.conf
-echo TESTMEOW > /etc/hostname
+echo ${HOST} > /etc/hostname
 mkinitcpio -P
 
 vim /etc/pacman.conf
