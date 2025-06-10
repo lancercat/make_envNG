@@ -25,7 +25,7 @@ echo TESTMEOW > /etc/hostname
 mkinitcpio -P
 
 vim /etc/pacman.conf
-https://gitlab.archlinux.org/archlinux/packaging/packages/arch-install-scripts/-/issues/3
+# https://gitlab.archlinux.org/archlinux/packaging/packages/arch-install-scripts/-/issues/3
 
 pacman -Syu sudo pycharm-community-edition plasma-meta python-paramiko python-lmdb python-numba python-opencv python-pillow python-pip python-pyqtgraph python-pytorch-opt-cuda python-regex python-scikit-learn python-scipy python-torchvision-cuda python-tqdm python-xmltodict make gcc cmake unzip grub vim plasma-meta efivar
 
